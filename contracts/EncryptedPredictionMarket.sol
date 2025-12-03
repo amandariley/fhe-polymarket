@@ -2,9 +2,9 @@
 pragma solidity ^0.8.24;
 
 import {FHE, euint32, externalEuint32} from "@fhevm/solidity/lib/FHE.sol";
-import {SepoliaConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
+import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 
-contract EncryptedPredictionMarket is SepoliaConfig {
+contract EncryptedPredictionMarket is ZamaEthereumConfig {
     uint32 public constant STARTING_POINTS = 100;
     uint32 public constant BET_COST = 10;
     uint8 public constant MAX_BETS = uint8(STARTING_POINTS / BET_COST);

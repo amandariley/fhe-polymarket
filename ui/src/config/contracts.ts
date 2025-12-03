@@ -1,7 +1,7 @@
 export const CONTRACT_ADDRESS =
   ((import.meta.env.VITE_CONTRACT_ADDRESS as string) ?? '').length > 0
     ? (import.meta.env.VITE_CONTRACT_ADDRESS as string)
-    : '0x35e815FFD96b7580cf2853062D80DE6Ad84b2a8e';
+    : '0x07b207E7c4545512A47feDA4D8469eC673cC0f94';
 
 export const CONTRACT_ABI = [
   {
